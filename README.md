@@ -7,6 +7,13 @@ Odoo Product Attribute
 Various addons related to attribute management for products.
 
 [//]: # (addons)
+Available addons
+----------------
+addon | version | summary
+--- | --- | ---
+[product_brand](product_brand/) | 9.0.1.0.0 | Product Brand Manager
+[product_multi_category](product_multi_category/) | 9.0.1.0.0 | Product - Many Categories
+
 Unported addons
 ---------------
 addon | version | summary
@@ -15,7 +22,6 @@ addon | version | summary
 [customer_context_in_product_view](customer_context_in_product_view/) | 1.1.1 (unported) | Display Customer Price in Product View
 [partner_custom_attributes](partner_custom_attributes/) | 0.1.0 (unported) | Partner Custom Attributes
 [product_attribute_multi_type](product_attribute_multi_type/) | 8.0.1.0.0 (unported) | Product attribute types
-[product_brand](product_brand/) | 8.0.0.1.0 (unported) | Add brand to products
 [product_catalog_report](product_catalog_report/) | 1.0 (unported) | Product Catalog - Print Report of product catalog with product image
 [product_categ_attributes](product_categ_attributes/) | 0.1 (unported) | product_categ_attributes
 [product_custom_attributes](product_custom_attributes/) | 0.2.1 (unported) | product_custom_attributes
@@ -29,7 +35,6 @@ addon | version | summary
 [product_index](product_index/) | 1.0 (unported) | Manage indexes on products prices
 [product_listprice_upgrade](product_listprice_upgrade/) | 1.0 (unported) | Product listprice upgrade
 [product_lot_foundry](product_lot_foundry/) | 1.0 (unported) | Products Lot Foundry
-[product_m2mcategories](product_m2mcategories/) | 8.0.1.0.2 (unported) | Product - Many Categories
 [product_manufacturer](product_manufacturer/) | 8.0.1.0.0 (unported) | Products Manufacturers
 [product_multi_company](product_multi_company/) | 1.1 (unported) | Product multi company
 [product_multi_price](product_multi_price/) | 0.1 (unported) | product_multi_price
