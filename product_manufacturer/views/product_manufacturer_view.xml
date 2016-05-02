@@ -7,14 +7,15 @@
             <field name="model">product.template</field>
             <field name="inherit_id" ref="product.product_template_form_view"/>
             <field name="arch" type="xml">
-                <group name="procurement" position="inside">
+                <!-- group name="procurement" position="inside" -->
+                <xpath expr="/field/[@name='description_purchase']" position="after">
                     <group string="Manufacturer">
                         <field name="manufacturer" context="{'default_supplier':True, 'default_customer':False}"/>
                         <field name="manufacturer_pname"/>
                         <field name="manufacturer_pref"/>
                         <field name="manufacturer_purl" widget="url"/>
                     </group>
-                </group>
+                </xpath>
             </field>
         </record>
 

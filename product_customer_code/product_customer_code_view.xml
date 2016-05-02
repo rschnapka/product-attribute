@@ -6,11 +6,11 @@
             <field name="name">view.product.customer.code.form</field>
             <field name="model">product.customer.code</field>
             <field name="arch" type="xml">
-                <form string="Product Customer Code" version="7.0">
-                    <field name="product_code"/>
-                    <field name="partner_id"/>
-                    <field name="product_id"/>
-                    <field name="company_id" widget="selection" groups="base.group_multi_company"/>
+                <form name="product_customer_code_form_view" string="Product Customer Code">
+                    <field name="product_code" string="Code"/>
+                    <field name="partner_id" string="Partner"/>
+                    <field name="product_id" string="Product"/>
+                    <field name="company_id" string="Company" widget="selection" groups="base.group_multi_company"/>
                 </form>
             </field>
         </record>
@@ -19,7 +19,7 @@
             <field name="name">view.product.customer.code.tree</field>
             <field name="model">product.customer.code</field>
             <field name="arch" type="xml">
-                <tree string="Product Customer Code">
+                <tree name="product_customer_code_tree_view"  string="Product Customer Code">
                     <field name="product_code"/>
                     <field name="partner_id"/>
                     <field name="company_id"/>
