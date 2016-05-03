@@ -18,10 +18,10 @@
 #
 ##############################################################################
 
-from openerp.osv import orm, fields
+from openerp.osv import orm, fields, models, _
 
 
-class ProductTemplate(orm.Model):
+class ProductTemplate(models.Model):
     _inherit = 'product.template'
 
     manufacturer = fields.Many2one('res.partner', 'Manufacturer')
